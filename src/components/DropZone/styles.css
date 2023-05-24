@@ -1,0 +1,82 @@
+.dropzone-wrapper {
+  vertical-align: middle;
+  position: relative;
+  width: 670px;
+  height: 222px;
+  background: #a7e0cf;
+  border-radius: 12px;
+}
+
+.dropzone-border-layer {
+  width: 660px;
+  height: 212px;
+  margin: 5px auto;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='14' ry='14' stroke='black' stroke-width='4' stroke-dasharray='2%2c 6' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+  border-radius: 14px;
+}
+
+.dropzone-title {
+  position: absolute;
+  width: 426px;
+  height: 64px;
+  left: calc(50% - 426px / 2);
+  top: 21px;
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #1a2741;
+}
+
+.add-btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 8px;
+  position: absolute;
+  width: 195px;
+  height: 60px;
+  left: calc(50% - 195px / 2);
+  top: 101px;
+  border: 2px solid #1a2741;
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: auto;
+}
+
+.btn-text {
+  width: 106px;
+  height: 26px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #1a2741;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.sub-title {
+  position: absolute;
+  width: 188px;
+  height: 24px;
+  left: calc(50% - 188px / 2);
+  top: 177px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #1a2741;
+}
